@@ -16,7 +16,7 @@ body {
     color:#fff;
 }
 .grey {
-    color: rgb(226, 226, 226);
+    color: rgb(156, 156, 156);
 }
 
 
@@ -35,14 +35,23 @@ body {
 }
 /*  button section */
 .add-task {
-    height: 45px;
+    height: 40px;
     width: 100px;
     padding: 10px;
     border:0px;
     background-color: #45ABEA;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: large;
+}
+.add-section {
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: large;
+    border:1px solid rgb(156, 156, 156);
 }
 
 /* main */
@@ -50,5 +59,18 @@ body {
     width: 900px;
     background-color: rgb(226, 226, 226);
     margin:0 auto;
+}
+.button-section {
     margin-top: 100px;
+    margin-bottom: 50px;;
+
+}
+
+summary {
+    font-weight: 900;
+    font-size: 30px ;
+}
+
+details {
+    font-size: large;
 }
