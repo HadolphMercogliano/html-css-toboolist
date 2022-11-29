@@ -1,0 +1,54 @@
+/* reset */
+* {
+    margin:0;
+    padding: 0;
+}
+
+/* utility */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.blue {
+    color: #45ABEA;
+}
+.white {
+    color:#fff;
+}
+.grey {
+    color: rgb(226, 226, 226);
+}
+
+
+/* header */
+#logo {
+    height: 80px;
+    vertical-align: middle;
+    padding:15px 5px 15px 25px;
+}
+
+#titolo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 60px;
+    font-weight: 900;
+}
+/*  button section */
+.add-task {
+    height: 45px;
+    width: 100px;
+    padding: 10px;
+    border:0px;
+    background-color: #45ABEA;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: large;
+}
+
+/* main */
+.container {
+    width: 900px;
+    background-color: rgb(226, 226, 226);
+    margin:0 auto;
+    margin-top: 100px;
+}
