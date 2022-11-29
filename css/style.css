@@ -16,20 +16,19 @@ body {
     color: rgb(156, 156, 156);
 }
 
-
 /* header */
 #logo {
     height: 80px;
     vertical-align: middle;
     padding:15px 5px 15px 25px;
 }
-
 #titolo {
     display: inline-block;
     vertical-align: middle;
     font-size: 60px;
     font-weight: 900;
 }
+
 /*  button section */
 .add-task {
     height: 40px;
@@ -59,7 +58,6 @@ body {
 .button-section {
     margin-top: 100px;
     margin-bottom: 50px;
-
 }
 
 /* task list */
@@ -74,21 +72,25 @@ details {
 p {
     padding:10px;
 }
-/* done - to do mark */
+
+/* to do - done mark */
 .checkmark {
     
     color:rgb(0, 168, 0);
-    border: 3px solid rgb(0, 168, 0);
-    padding: 3px;
+    font-size: 15px;
+    border: 2px solid rgb(0, 168, 0);
+    padding: 2px 4px;
     border-radius: 50%;
 }
 .crossmark {
+    font-size: 15px;
     color: red;
-     border: 3px solid red;
-     padding: 3px;
-     border-radius: 50%;
+    border: 2px solid red;
+    padding: 2px 4px;
+    border-radius: 50%;
 
 } 
+
     /* tag section */
 .tag {
     padding:5px 10px;
