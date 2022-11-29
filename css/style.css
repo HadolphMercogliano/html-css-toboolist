@@ -9,9 +9,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.blue {
-    color: #45ABEA;
-}
 .white {
     color:#fff;
 }
@@ -57,20 +54,63 @@ body {
 /* main */
 .container {
     width: 900px;
-    background-color: rgb(226, 226, 226);
     margin:0 auto;
 }
 .button-section {
     margin-top: 100px;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
 
 }
 
+/* task list */
 summary {
     font-weight: 900;
     font-size: 30px ;
 }
-
 details {
     font-size: large;
+    margin-bottom: 30px;
 }
+p {
+    padding:10px;
+}
+/* done - to do mark */
+.checkmark {
+    
+    color:rgb(0, 168, 0);
+    border: 3px solid rgb(0, 168, 0);
+    padding: 3px;
+    border-radius: 50%;
+}
+.crossmark {
+    color: red;
+     border: 3px solid red;
+     padding: 3px;
+     border-radius: 50%;
+
+} 
+    /* tag section */
+.tag {
+    padding:5px 10px;
+    border: 0px solid;
+    border-radius: 14px;
+}
+.editorial {
+    background-color: #45ABEA;
+}
+.q1-goals {
+    background-color: rgb(180, 67, 255);
+}
+.recruiting {
+    background-color: #05be71;
+}
+.mobile {
+    background-color: orange;
+}
+.website {
+    background-color:rgb(255, 108, 164);
+}
+.sales {
+    background-color: rgb(141, 212, 83);
+}
+
