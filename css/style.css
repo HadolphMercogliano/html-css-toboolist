@@ -1,14 +1,18 @@
 /* reset */
 * {
     margin:0;
-    padding: 0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 /* utility */
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+.container {
+    width: 900px;
+    margin:0 auto;
+}
 .white {
     color:#fff;
 }
@@ -30,31 +34,25 @@ body {
 }
 
 /*  button section */
-.add-task {
+.btn {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: large;
     height: 40px;
-    width: 100px;
+    margin-right:10px;
+    border-radius: 8px;
     padding: 10px;
+    text-decoration:none;
+}
+.add-task {
     border:0px;
     background-color: #45ABEA;
-    border-radius: 8px;
-    font-weight: 500;
-    font-size: large;
 }
 .add-section {
-    height: 40px;
-    width: 130px;
-    padding: 10px;
-    border-radius: 8px;
-    font-weight: 500;
-    font-size: large;
     border:1px solid rgb(156, 156, 156);
 }
 
 /* main */
-.container {
-    width: 900px;
-    margin:0 auto;
-}
 .button-section {
     margin-top: 100px;
     margin-bottom: 50px;
@@ -69,7 +67,10 @@ details {
     font-size: large;
     margin-bottom: 30px;
 }
-p {
+ul {
+    list-style-type: none;
+}
+li {
     padding:10px;
 }
 
@@ -88,7 +89,6 @@ p {
     border: 2px solid red;
     padding: 2px 4px;
     border-radius: 50%;
-
 } 
 
     /* tag section */
@@ -115,4 +115,3 @@ p {
 .sales {
     background-color: rgb(141, 212, 83);
 }
-
